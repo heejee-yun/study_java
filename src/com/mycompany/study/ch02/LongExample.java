@@ -1,17 +1,19 @@
 package com.mycompany.study.ch02;
 
-public class IntExample {
+public class LongExample {
 
 	public static void main(String[] args) {
 		
-		int var1 = 10;	// 십진수
-		int var2 = 012;	// 8진수
-		int var3 = 0xa; // 16진수
+		long var1 = 10;
+		long var2 = 20;
+		
+		long var3 = 10000000000000000L;
+		// 숫자가 큰 경우 뒤에 L 넣으면 나옴 
 		
 		System.out.println(var1);
 		System.out.println(var2);
 		System.out.println(var3);
-		
+
 	}
 
 }
