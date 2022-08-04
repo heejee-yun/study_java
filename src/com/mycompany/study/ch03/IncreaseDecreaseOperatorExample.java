@@ -7,7 +7,7 @@ public class IncreaseDecreaseOperatorExample {
 //		++/-- 피연산자 : 다른 연산 수행 전에 피연산자 1증가/감소
 //		피연산자 ++/-- : 다른 연산 수행 후에 피연산자 1증가/감소
 
-		int i = 0;
+		int i = 0; 
 		int j = 0;
 		
 		++i;
@@ -27,18 +27,20 @@ public class IncreaseDecreaseOperatorExample {
 		--a;
 		b--;
 		
-		System.out.println("a: " +a);
-		System.out.println("b: " +b);
+		System.out.println("a: " + a);
+		System.out.println("b: " + b);
 		
 //-------------------------------------------------------------
 		
 //		int 변수 k 선언후 초기값으로 i뒤에 증감연산
 		
+//		i=1
 		int k = i++;
 		
 		System.out.println("k: " + k);
 		System.out.println("i: " + i);
 		
+//		j =1
 		int m = ++j;
 		
 		System.out.println("m: " + m);
@@ -52,7 +54,7 @@ public class IncreaseDecreaseOperatorExample {
 		System.out.println("z: " + z);		// 5
 		System.out.println("i: " + i);		// 3
 		System.out.println("j: " + j);		// 3
-	
+ 	
 	}
 
 }

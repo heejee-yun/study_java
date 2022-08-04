@@ -13,11 +13,7 @@ public class SignOperatorExample {
 		System.out.println(result2);
 		
 		
-		
-		
-		
-		
-		
+
 		
 		
 		

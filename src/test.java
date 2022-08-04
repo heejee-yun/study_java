@@ -2,8 +2,9 @@
 public class test {
 
 	public static void main(String[] args) {
-	 int a = 10;
-	 int b = 5;
+		
+	/* int A = 10;
+	 int B = 5;
 	 
 	 System.out.println(a + b );
 	 System.out.println(a - b);
@@ -28,12 +29,12 @@ public class test {
 	 int result4 = v1 / v2; 
 	 System.out.println("result4 :" + result4);
 	 int result5 = v1 % v2; 
-	 System.out.println("result5 :" + result5);
+	 System.out.println("result5 :" + result5);*/
 	 
 	 
-	 double i1 = 1.67;
-	 double i2 = 0.625;	 
-	 double i3 = 9.8;
+	 double i1 = 1+(double)2/3;
+	 double i2 = (double)5/8;	 
+	 double i3 = 9+(double)4/5;
 	 double r1 = (i1-i2)*i3;
 	 System.out.println("r1: " + r1);
 	 
@@ -41,7 +42,17 @@ public class test {
 	 double B = 0.705;
 	
 	System.out.println(5-(A)*B);
-			 
+
+	/***********/	
+	
+	System.out.println(8+7+5);
+	System.out.println(1+9+5);
+	System.out.println(5+6+6);
+	System.out.println(4+7+1);
+	System.out.println(7+5+5);
+	
+	
+	
 	}
 
 }

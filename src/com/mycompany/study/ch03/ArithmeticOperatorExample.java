@@ -62,9 +62,36 @@ public class ArithmeticOperatorExample {
 		
 		System.out.println(qwe5);
 		
+		double i1 = 1+(double)2/3;  // 분수끼리 더하기 한 부분을 표현한 문제 
+		double i2 = (double)5/8;	 
+		double i3 = 9+(double)4/5;
+		double r1 = (i1-i2)*i3;
+		System.out.println("r1 : " + r1);
 		
+		sum(8,7,5); // 3가지 숫자를 더해야하는 연습 문제 
+		sum(1,9,5);
+		sum(5,6,5);
+		sum(4,7,1);
+		sum(7,5,5);
+		
+		
+		avg("홍길동",60,70,85,90,45); // 시험 성적이 있는 엑셀을 보고 평균 구하는 것
+		avg("박말순",50,75,70,60,70);
+		avg("고장난",55,60,64,58,90);
+		avg("도롱뇽",80,70,63,88,78);
 		
 		
 	}
+	// 3가지 숫자를 더해야하는 연습 문제의 함수 
+	public static void sum(int a, int b, int c) {
+		
+		System.out.println(a + "+" + b + "+"+ c + "+" + "=" + (a+b+c) );
+		
+	}
+	// 변수에 abc 말고 뭔지 꼭 쓰기 변수 세분화 해서 쓰기 함수는 짧게 짧게 많이 많이 조합조합
+	public static void avg(String name, int b , int c, int d, int e, int f ) {   
 
+		System.out.println( name + "의 평균 점수는 " + ((double)(b+c+d+e+f)/5) +"입니다"); 
+	}
+	
 }
