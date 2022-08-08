@@ -62,11 +62,8 @@ public class ifExample {
 			System.out.println("F");
 		}
 				
-		
-		
-		
+
 		
 		
 	}
-
 }
