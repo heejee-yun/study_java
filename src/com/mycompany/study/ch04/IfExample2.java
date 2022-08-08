@@ -18,7 +18,7 @@ public class IfExample2 {
 	int level = 2;
 	
 	if(level == 1) {
-		System.out.println(price*(1-0.05));
+		System.out.println((int)price*(1-0.05));
 	}
 	else if(level == 2) {
 		System.out.println(price*0.10);
