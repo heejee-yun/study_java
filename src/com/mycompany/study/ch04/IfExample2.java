@@ -11,34 +11,32 @@ public class IfExample2 {
 	 골드4, 20% 할인
 	 플래티넘5, 2.7% 할인 
 	 
-	  정가 = 할인가
+	  정가 : 할인가
 	 */
 	
-	int OriPrice = 1000;
+	int price = 1000;
 	int level = 2;
 	
 	if(level == 1) {
-		System.out.println((int)price*(1-0.05));
+		System.out.println("정상가" + ((int)price)+ ":" + "할인가" + (int)price*(1-0.05));
 	}
 	else if(level == 2) {
-		System.out.println(price*0.10);
+		System.out.println("정상가" + ((int)price)+ ":" + "할인가" + (int)price*(1-0.10));
 	}
 	else if(level == 3) {
-		System.out.println(price*0.15);
+		System.out.println("정상가" + ((int)price)+ ":" + "할인가" + (int)price*(1-0.15));
 	}
 	else if(level == 4) {
-		System.out.println(price*0.20);
+		System.out.println("정상가" + ((int)price)+ ":" + "할인가" + (int)price*(1-0.20));
 	}
-	else {
-		System.out.println(price*0.027);
+	else if (level == 5){
+		System.out.println("정상가" + ((int)price)+ ":" + "할인가" + (int)price*(1-0.027));
+	}
+	else{
+		System.out.println("레벨 5까지만 사용 가능합니다");
 	}
 	
-	}
-	// 변수에 abc 말고 뭔지 꼭 쓰기 변수 세분화 해서 쓰기 함수는 짧게 짧게 많이 많이 조합조합
-	public static void DisPrice (int OriPrice, int level ) {   
-
-		System.out.println(price*0.05); 
-	}
+	// 함수를 이용해서 쉽게 하는 벙법을 없을지 연구해보기 
 	
 	
 	}
