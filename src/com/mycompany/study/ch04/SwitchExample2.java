@@ -43,7 +43,7 @@ public class SwitchExample2 {
 		
 		//  switch  - case - break  이 구성 암기 필수 
 		
-		// 함수로 만든다면 겹치는 내용을 나 넣으면 될 듯 ? 
+		// 함수로 만든다면 겹치는 내용을 나 넣으면 될 듯 ?  함수 내용은 다른 곳에서 참고 필수 
 
 	}
 
