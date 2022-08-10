@@ -40,6 +40,7 @@ public class SwitchExample {
 			default:
 				System.out.println("직함을 다시 확인해주세요");
 				break;
+				
 			
 		}
 
