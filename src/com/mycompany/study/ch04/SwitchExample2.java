@@ -13,6 +13,7 @@ public class SwitchExample2 {
 		  정가 : 할인가
 		  
 		  IfExample2 참고
+		 
 		 */
 		
 		
