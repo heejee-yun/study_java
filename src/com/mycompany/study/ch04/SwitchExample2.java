@@ -41,6 +41,9 @@ public class SwitchExample2 {
 				break;
 		}
 		
+		//  switch  - case - break  이 구성 암기 필수 
+		
+		// 함수로 만든다면 겹치는 내용을 나 넣으면 될 듯 ? 
 
 	}
 
