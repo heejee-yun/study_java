@@ -3,8 +3,6 @@ package com.mycompany.study.ch05;
 public class ArrayInaArrayExample {
 
 	public static void main(String[] args) {
-
-				System.out.println("Hello world");
 				
 				int[][] scores = {{99,88,55},{55,77,66},{55,55,44},{55,55,44},{55,55,77}};
 				
