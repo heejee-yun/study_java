@@ -25,8 +25,7 @@ public class BookExample {
 //		book.author = "Ferriss, Timothy";
 //		System.out.println("저자(영어) : " + book.author);
 		
-		
-		
+
 	}
 
 }

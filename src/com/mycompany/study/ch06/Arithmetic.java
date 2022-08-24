@@ -31,5 +31,30 @@ public class Arithmetic {
 		remaind = a % b;
 		return remaind;
 	}
-
+	
+	public int abc (int a) {
+		return 1;
+	}
+	
+	public String aaa(int a) {
+		return "";
+	}
+	
+	public boolean bbb (int a) {
+		return true;
+	}
+	
+	public double ccc (int a) {
+		return 1.1;
+	}
+	
+	public void ddd (int a) {
+		
+	}
+	
+	static void staticTest() {
+		System.out.println("나는 토니당...");
+	}
+	
+	
 }
