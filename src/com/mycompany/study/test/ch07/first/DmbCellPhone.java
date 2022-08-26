@@ -12,7 +12,7 @@ public class DmbCellPhone extends CellPhone{
 	}
 	
 	
-	d
+
 	// 메소드 
 	
 	void turnOnDmb() {System.out.println("전원 킴");}
