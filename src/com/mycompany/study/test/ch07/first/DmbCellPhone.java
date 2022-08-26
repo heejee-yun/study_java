@@ -7,12 +7,12 @@ public class DmbCellPhone extends CellPhone{
 	int channel; 
 	
 	
-	//생성자 ()sss
+	//생성자 ()sssdddd
 	DmbCellPhone(){
 	}
 	
 	
-	
+	d
 	// 메소드 
 	
 	void turnOnDmb() {System.out.println("전원 킴");}
