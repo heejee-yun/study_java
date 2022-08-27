@@ -17,6 +17,9 @@ public class CellPhone {
 	void receiveVoice(String message) {System.out.println("상대방: " +  message);}
 	void hangUp() {System.out.println("전화를 끊습니다.");}
 	
+	// 오버 로드와 라이드에 대한 차이점 
+	// 오버 ㄹ ㅏ 이드 ㅅ ㅏ ㅇ 속 ㅈ ㅏ 식. 즉 상속에서 자식 extends 부모 순으로 넣음 
+	
 	
 }
 	
