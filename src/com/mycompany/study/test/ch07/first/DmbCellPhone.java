@@ -7,7 +7,7 @@ public class DmbCellPhone extends CellPhone{
 	int channel; 
 	
 	
-	//생성자 ()sssdddd
+	//생성자 ()
 	DmbCellPhone(){
 	}
 	
