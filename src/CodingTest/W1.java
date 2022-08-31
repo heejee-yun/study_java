@@ -27,22 +27,13 @@ public class W1 {
 //		67이상d+/ 62점 이상 d/ 60점 이상 d-
 		
 		
-		int score = 0;
-		
-		if (92 <= score) {
-			System.out.println("a");
-		} else if () {
-			
-		}
-		
-	}
-	
-	
-		
-	
-	
-	
-	
-	
-
+//		int score = 0;
+//		
+//		if (92 <= score) {
+//			System.out.println("a");
+//		} else if () {
+//			
+//		}
+//		
+	}	
 }
